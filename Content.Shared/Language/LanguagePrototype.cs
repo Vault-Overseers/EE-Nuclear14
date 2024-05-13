@@ -17,6 +17,12 @@ public sealed class LanguagePrototype : IPrototype
     public bool ObfuscateSyllables;
 
     // <summary>
+    // Temp
+    // </summary>
+    [DataField(required: false)]
+    public bool SignLanguage;
+
+    // <summary>
     // Lists all syllables that are used to obfuscate a message a listener cannot understand if obfuscateSyllables is true,
     // Otherwise uses all possible phrases the creature can make when trying to say anything.
     // </summary>
