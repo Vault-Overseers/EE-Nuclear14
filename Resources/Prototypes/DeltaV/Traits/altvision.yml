@@ -1,13 +1,11 @@
 - type: trait
   id: UltraVision
-  name: trait-ultravision-name
-  description: trait-ultravision-desc
+  category: Uncategorized
   components:
     - type: UltraVision
 
 - type: trait
   id: DogVision
-  name: trait-deuteranopia-name
-  description: trait-deuteranopia-desc
+  category: Uncategorized
   components:
     - type: DogVision

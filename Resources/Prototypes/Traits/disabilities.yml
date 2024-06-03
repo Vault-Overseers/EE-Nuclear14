@@ -1,18 +1,15 @@
 - type: trait
   id: Blindness
-  name: trait-blindness-name
-  description: trait-blindness-desc
-  traitGear: WhiteCane
-  whitelist:
-    components:
-      - Blindable
+  category: A
+  # whitelist:
+  #   components:
+  #     - Blindable
   components:
     - type: PermanentBlindness
 
 - type: trait
   id: Narcolepsy
-  name: trait-narcolepsy-name
-  description: trait-narcolepsy-desc
+  category: B
   components:
     - type: Narcolepsy
       timeBetweenIncidents: 300, 600
@@ -20,15 +17,13 @@
 
 - type: trait
   id: Pacifist
-  name: trait-pacifist-name
-  description: trait-pacifist-desc
+  category: C
   components:
     - type: Pacified
 
 - type: trait
   id: Paracusia
-  name: trait-paracusia-name
-  description: trait-paracusia-desc
+  category: A
   components:
     - type: Paracusia
       minTimeBetweenIncidents: 0.1
@@ -39,31 +34,27 @@
 
 - type: trait
   id: Muted
-  name: trait-muted-name
-  description: trait-muted-desc
-  blacklist:
-    components:
-      - BorgChassis
+  category: B
+  # blacklist:
+  #   components:
+  #     - BorgChassis
   components:
     - type: Muted
 
 - type: trait
   id: Uncloneable
-  name: trait-uncloneable-name
-  description: trait-uncloneable-desc
+  category: C
   components:
     - type: Uncloneable
 
 - type: trait
   id: FrontalLisp
-  name: trait-frontal-lisp-name
-  description: trait-frontal-lisp-desc
+  category: A
   components:
     - type: FrontalLisp
 
 - type: trait
   id: Snoring
-  name: trait-snoring-name
-  description: trait-snoring-desc
+  category: B
   components:
     - type: Snoring
