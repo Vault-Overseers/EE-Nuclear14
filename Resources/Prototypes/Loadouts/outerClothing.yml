@@ -34,6 +34,87 @@
     - ClothingOuterWinterCoat
 
 - type: loadout
+  id: LoadoutOuterCoatHyenhSweater
+  category: Outer
+  cost: 3
+  items:
+    - ClothingOuterCoatHyenhSweater
+
+- type: loadout
+  id: LoadoutOuterWinterCoatLong
+  category: Outer
+  cost: 3
+  items:
+    - ClothingOuterWinterCoatLong
+
+- type: loadout
+  id: LoadoutOuterWinterCoatPlaid
+  category: Outer
+  cost: 3
+  items:
+    - ClothingOuterWinterCoatPlaid
+
+- type: loadout
+  id: LoadoutOuterVestValet
+  category: Outer
+  cost: 1
+  items:
+    - ClothingOuterVestValet
+
+## Robes
+- type: loadout
+  id: LoadoutOuterRobeBrown
+  category: Outer
+  cost: 2
+  items:
+    - ClothingOuterRobeBrown
+
+- type: loadout
+  id: LoadoutOuterRobeTechPriest
+  category: Outer
+  cost: 2
+  items:
+    - ClothingOuterRobeTechPriest
+
+## Letterman Jackets
+- type: loadout
+  id: LoadoutOuterCoatLettermanBlue
+  category: Outer
+  cost: 3
+  items:
+    - ClothingOuterCoatLettermanBlue
+
+- type: loadout
+  id: LoadoutOuterCoatLettermanRed
+  category: Outer
+  cost: 3
+  items:
+    - ClothingOuterCoatLettermanRed
+
+## MNK
+- type: loadout
+  id: LoadoutOuterCoatMNKWhiteHoodie
+  category: Outer
+  cost: 3
+  items:
+    - ClothingOuterCoatMNKWhiteHoodie
+
+- type: loadout
+  id: LoadoutOuterCoatMNKBlackTopCoat
+  category: Outer
+  cost: 3
+  items:
+    - ClothingOuterCoatMNKBlackTopCoat
+
+- type: loadout
+  id: LoadoutOuterCoatMNKBlackJacket
+  category: Outer
+  cost: 3
+  items:
+    - ClothingOuterCoatMNKBlackJacket
+
+## Contractor Jackets
+- type: loadout
   id: LoadoutOuterCorporateJacket
   category: Outer
   cost: 2
